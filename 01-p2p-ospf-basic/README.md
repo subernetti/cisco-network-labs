@@ -82,6 +82,36 @@ Success rate is 100 percent (5/5), round-trip min/avg/max = 1/2/4 ms
 
 
 
------ Author & Contact -----
-Author: Kacper Młodziński
-GitHub: @subernetti
+
+
+
+
+
+# Cisco Network Engineering Lab Portfolio
+
+[![Cisco](https://img.shields.io/badge/Vendor-Cisco%20Systems-1BA0D7?logo=cisco&logoColor=white)](#)
+[![Environment](https://img.shields.io/badge/Platform-EVE--NG-blue?logo=linux&logoColor=white)](#)
+[![Track](https://img.shields.io/badge/Certification-CCNA%20%7C%20Encor-orange)](#)
+
+A practical collection of enterprise networking topologies, routing configurations, and security policies designed, implemented, and validated in an **EVE-NG** virtualized environment utilizing **Cisco IOL (IOS on Unix)** images.
+
+---
+
+## Lab Directory
+
+| # | Project Title | Key Technologies | Status | Link |
+| :-: | :--- | :--- | :-: | :-: |
+| **01** | **Point-to-Point Core Link with OSPFv2** | OSPFv2 (Area 0), P2P Subnetting (/30), Loopback Tuning, Line Hardening | `Completed` | [View Project](./01-p2p-ospf-basic) |
+| **02** | **VLAN Segmentation, 802.1Q Trunks & Inter-VLAN Routing** | L2 Switching, 802.1Q, Router-on-a-Stick (Subinterfaces), SVI | `Planned` | _Upcoming_ |
+
+---
+
+## Lab Environment Architecture
+- **Hypervisor / Platform:** EVE-NG Bare-Metal / KVM
+- **Images:** Cisco IOL Linux L2/L3 (I86BI_LINUX-JK9S-M)
+- **Terminal Emulator:** Apple Terminal / Telnet & HTML5 Console
+
+---
+
+## Author
+- **Kacper Młodziński** — [@subernetti](https://github.com/subernetti)
